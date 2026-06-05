@@ -17,6 +17,14 @@
   }
 }
 
+body {
+  background-image: url('/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
 .hero {
   position: relative;
 
@@ -27,6 +35,12 @@
     margin: 0 auto;
   }
 
+  .app {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
   .base {
     width: 170px;
     position: relative;
